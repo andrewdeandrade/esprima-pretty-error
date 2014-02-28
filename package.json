@@ -1,7 +1,7 @@
 {
   "name": "esprima-pretty-error",
   "version": "0.0.0",
-  "description": "Pretty prints esprima parse errors to stderr.",
+  "description": "Pretty print esprima parse errors to stderr.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -14,6 +14,7 @@
   "author": "Andrew de Andrade <andrew@deandrade.com.br>",
   "license": "MIT",
   "dependencies": {
-    "chalk": "^0.4.0"
+    "chalk": "^0.4.0",
+    "esprima": "^1.0.4"
   }
 }
